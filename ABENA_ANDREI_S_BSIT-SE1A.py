@@ -1,3 +1,8 @@
+print("LA 1")
 convert_yts=int(input("Convert years to seconds: "))
-yts=convert_yts*365*24*60*60
+days=365
+hours=24
+mins=60
+secs=60
+yts=convert_yts*days*hours*mins*secs
 print(str(yts)+" Seconds")
